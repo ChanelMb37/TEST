@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <section>
+      <h1>
+        <span
+          >l'utlisation des procedes RAID1 et RAID5 <br />Test d'auto
+          evaluation</span
+        >
+      </h1>
+      <p>
+        <span class="vert"
+          >Questionaire sous forme de Qcm peuvent avoir une ou plusieurs bonnes
+          repnses</span
+        >
+      </p>
+      <strong>question1</strong>
+      <p>
+        quel est le type de systeme qui realise une copie erale de toutes les
+        données dune partition disque dans une autre partition
+      </p>
+      <ul>
+        <li><input type="checkbox" /><label for="">RAID</label></li>
+        <li>
+          <input type="checkbox" /><label for="">sauvegarde disque</label>
+        </li>
+        <li><input type="checkbox" /><label for="">mise en miroir</label></li>
+        <li>
+          <input type="checkbox" /><label for="">depannage a chaud</label>
+        </li>
+        <br />
+      </ul>
+      <strong>question2</strong>
+
+      <p>
+        quel est le type de systeme utilisé de 3 a 35 qui realise une copie
+        erale de toutes les données dune partition disque dans une autre
+        partition
+      </p>
+      <ul>
+        <li>
+          <input type="checkbox" /><label for=""
+            >agregat par bande avec parités</label
+          >
+        </li>
+
+        <li>
+          <input type="checkbox" /><label for=""
+            >agregat par bande sans parités</label
+          >
+        </li>
+        <li><input type="checkbox" /><label for="">mise en miroir</label></li>
+        <li>
+          <input type="checkbox" /><label for=""
+            >agregat par bande avec donnees repertories</label
+          >
+        </li>
+      </ul>
+      <strong>question3</strong>
+      <p>quels sont les types de disques qui assurent la tlerance des pannes</p>
+      <ul>
+        <li>
+          <input type="checkbox" /><label for=""> les agregat de patheon</label>
+        </li>
+
+        <li>
+          <input type="checkbox" /><label for=""
+            >agregat par bande sans parités</label
+          >
+        </li>
+        <li><input type="checkbox" /><label for="">mise en miroir</label></li>
+        <li>
+          <input type="checkbox" /><label for=""
+            >agregat par bande avec parités</label
+          >
+        </li>
+        <li>
+          <input type="checkbox" /><label for="">les disques en miroir</label>
+        </li>
+        <li><input type="checkbox" /><label for="">Raid de niveau 0</label></li>
+      </ul>
+      <button id="correction">correction</button>
+      <button id="effacer">effacer</button>
+      <button id="corriger">corriger</button>
+      <button id="valider">valider</button>
+    </section>
+    <div id="popup">
+      <p id="score"></p>
+      <button id="partager">Partager</button>
+    </div>
+
+    <section>
+      <h1>
+        <span
+          >l'utlisation des procedes RAID1 et RAID5 <br />Reponse du test
+        </span>
+      </h1>
+      <p><span class="vert">reponses aux test apparaissent en rougess</span></p>
+      <strong>question1</strong>
+      <p>
+        quel est le type de systeme utilisé de 3 a 35 qui realise une copie
+        erale de toutes les données dune partition disque dans une autre
+        partition
+      </p>
+      <ul>
+        <li>Raid</li>
+        <li>sauvegarde disques</li>
+        <li><span class="rouge"> en miroire</span></li>
+        <li>depannage a chaud</li>
+      </ul>
+      <strong>question3</strong>
+      <p>
+        quel est le type de systeme utilisé de 3 a 35 qui realise une copie
+        erale de toutes les données dune partition disque dans une autre
+        partition
+      </p>
+      <ul>
+        <li><span class="rouge"> par bande avec parités</span></li>
+        <li>agregats de bande sans parites</li>
+        <li>mise en miroire</li>
+        <li>agregas par bande avec donnees relatives</li>
+      </ul>
+      <strong>question2</strong>
+      <p>
+        quels sont les types de disques qui assurent la tolerance des pannes
+      </p>
+      <ul>
+        <li>les agregas de pantheon</li>
+        <li><span class="rouge"> de bande avec parites</span></li>
+        <li>les agregats de bande sans parites</li>
+        <li><span class="rouge"> en miroir</span></li>
+        <li>Raid de niveau 0</li>
+      </ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
